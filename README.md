@@ -11,4 +11,4 @@
 
 - **Required Programs/Libraries:**
    - ThorSpectra, with wrapper DLL
-   - Python, with `NumPy`, `PythonNet` and `PySerial
+   - Python, with `NumPy`, `PythonNet` and `PySerial`
