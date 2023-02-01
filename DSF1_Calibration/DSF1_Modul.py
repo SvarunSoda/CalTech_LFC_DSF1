@@ -52,7 +52,7 @@ SweepChannels = [                           # XPOW channels that will be modulat
                 21,     # 1630 - MZI
                 18,     # 1650 - MZI
                 17,     # 1670 - MZI
-                16,      # 1690 - MZI
+                16,     # 1690 - MZI
                 14,     # 1710 - MZI
                 13,     # 1730 - MZI
                 12,     # 1750 - MZI
@@ -60,7 +60,7 @@ SweepChannels = [                           # XPOW channels that will be modulat
                 8       # 1790 - MZI
                 ]
 ExcludedChannels = []                       # XPOW channels that will be excluded from the modulation
-TestMode = True                            # If enabled, only spectral channel 1510 will be affected
+TestMode = False                            # If enabled, only spectral channel 1510 will be affected
 
 SweepVoltageStart = 0.0                     # Starting point for voltage modulation
 SweepVoltageMax = 17                        # Ending point for voltage modulation
