@@ -1,4 +1,10 @@
 - `DSF1_Calibration` includes script for calibration/modulation of all spectral channels
+   - **OUTPUT:** spectrum files for each channel & voltage
 - `DSF1_Lookup_Generator` includes script for generating Vol. vs. Ampl. lookup tables
+   - **INPUT:** spectrum files for each channel & voltage
+   - **OUTPUT:** Vol. vs. Ampl. lookup tables for each XPOW channel
 - `DSF1_Reference_Creator` includes script for creation of reference spectrum along a designated amplitude line
+   - **INPUT:** Vol. vs. Ampl. lookup tables
+   - **OUTPUT:** reference spectrum along specified dB line
 - `DSF1_Integrated_Test_1` includes script for the closed loop of flattening an output spectrum along a reference spectrum
+   - **INPUT:** Vol. vs. Ampl. lookup tables
