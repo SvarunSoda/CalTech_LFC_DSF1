@@ -8,3 +8,7 @@
    - **OUTPUT:** reference spectrum along specified dB line
 - `DSF1_Integrated_Test_1` includes script for the closed loop of flattening an output spectrum along a reference spectrum
    - **INPUT:** Vol. vs. Ampl. lookup tables
+
+- **Required Programs/Libraries:**
+   - ThorSpectra, with wrapper DLL
+   - Python, with `NumPy`, `PythonNet` and `PySerial
